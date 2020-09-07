@@ -1,8 +1,7 @@
-# TouchHotkey
-Onscreen hotkeys made for tablet like devices to increase workflow in Photoshop without a keyboard
+# TouchHotkey WIP
+Onscreen hotkeys made for tablet like devices to increase workflow in Photoshop without a keyboard.
 
-Inspired by [**kannagi**](http://kannagi.net/touchkey/). Remade using autohotkey for my own use.
-
+Inspired by [**kannagi**](http://kannagi.net/touchkey/). Remade using autohotkey.
 
 ## Instructions
 1. Navigate to Releases tab
