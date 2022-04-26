@@ -70,7 +70,7 @@ Send ^{n}
 Return
 
 ExitButton:
-Gui, Hide
+ExitApp
 Return
 
 Ctrl:
