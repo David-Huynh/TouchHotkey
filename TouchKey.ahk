@@ -29,13 +29,13 @@ Gui, Font, s30 Bold
 Gui, Add, Text, BackgroundTrans x10 y415 w200 h45 c535353 gCurves, CURVES
 
 Gui, Font, s20 Bold
-Gui, Add, Text, BackgroundTrans x10 y480 w100 h30 c535353 gLayer, Undo
-Gui, Add, Text, BackgroundTrans x110 y480 w100 h30 c535353 gMask, Redo
+Gui, Add, Text, BackgroundTrans x10 y480 w100 h30 c535353 gUndo, Undo
+Gui, Add, Text, BackgroundTrans x110 y480 w100 h30 c535353 gRedo, Redo
 Gui, Add, Text, BackgroundTrans x10 y515 w100 h30 c535353 gBrush, Brush
 Gui, Add, Text, BackgroundTrans x110 y515 w100 h30 c535353 gEraser, Erase
 
 Gui, Font, s35 Bold
-Gui, Add, Text, BackgroundTrans x25 y570 w200 h45 c535353 gSpace, SHIFT
+Gui, Add, Text, BackgroundTrans x25 y570 w200 h45 c535353 gShift, SHIFT
 
 Gui, Font, s20 Bold
 Gui, Add, Text, BackgroundTrans x10 y630 w100 h30 c535353 gCtrl, CTRL
@@ -56,6 +56,7 @@ Return
 Escape:
 Send {Esc}
 Return
+
 Delete:
 Send {Delete}
 Return
@@ -69,7 +70,7 @@ Send ^{n}
 Return
 
 ExitButton:
-Gui, Destroy
+Gui, Hide
 Return
 
 Ctrl:
@@ -125,4 +126,12 @@ Return
 
 Paste:
 Send ^{v}
+Return
+
+Undo:
+Send ^{z}
+Return
+
+Redo:
+Send ^{y}
 Return
