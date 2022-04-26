@@ -9,5 +9,5 @@ Inspired by [**kannagi**](http://kannagi.net/touchkey/) but expanded for more bu
 2. Download the latest release and extract it into its own folder
 3. Enjoy!
 
-## WIP
-1. Button Maker
+## Potential WIP
+1. Creating a way to add or remove more buttons
